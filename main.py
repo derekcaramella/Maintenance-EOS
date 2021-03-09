@@ -4,10 +4,10 @@ import pyodbc
 
 con = pyodbc.connect(Trusted_Connection='no',
                      driver='{SQL Server}',
-                     server='192.168.15.32',
+                     server='***.***.**.**',
                      database='Operations',
-                     UID='pladis_dba',
-                     PWD='BigFlats')
+                     UID='*******',
+                     PWD='*******')
 cursor = con.cursor()
 
 
